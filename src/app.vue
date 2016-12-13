@@ -79,7 +79,18 @@
                         <h4 class="modal-title">BATTLE BOT ROOM</h4>
                     </div>
                     <div class="modal-body">
-                        This is
+                        Use the power of programming to control your bot! Here's some code to get started ;).
+
+                        This code needs the following modules to work:
+                        <ul>
+                            <li>Attack</li>
+                            <li>World</li>
+                            <li>Movement</li>
+                        </ul>
+                        <pre>output.am0.shoot = true;
+b = input.wm0.bots[0];
+output.mm0.rotateTowards = b;
+output.mm0.rotationPower = 3</pre>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
